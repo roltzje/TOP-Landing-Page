@@ -1,0 +1,135 @@
+body {
+    font-family: "Arial", sans-serif;
+    margin: auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.top_page, .footer {
+    color: white;
+    background-color: #1f2937;
+    width: 100%;
+}
+
+#hero {
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.header, .lead, .info_section, .quote_section {
+    width: 1000px;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    border: dotted 1px white;
+    justify-content: space-between;
+    align-content: flex-end;
+}
+
+.header .logo {
+    font-weight: 1000;
+}
+
+.header ul {
+    display: flex;
+    gap: 16px;
+}
+
+.lead {
+    border: dotted 1px white;
+    display: flex;
+    margin: 5em auto;
+    justify-content: space-between;
+    height: 100%;
+    padding-bottom: 5em;
+}
+
+.lead .signup {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 50%;
+    gap: 10px;
+    padding-right: 10px;
+}
+
+.image img {
+    max-width: 100%;
+}
+
+.button {
+    border-radius: 10px;
+    background-color: #3882f6;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.info_section {
+    border: dotted 1px black;
+    padding-bottom: 5em;
+}
+
+#info_header {
+    border: dotted 1px black;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.info_section .info_images ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px;
+}
+
+.info_images li {
+    width: 200px;
+    text-align: center;
+}
+
+.info_images img {
+    border: solid 3px #3882F6;
+    border-radius: 1em;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.footer {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gray_background {
+    background-color: #E5E7EB;
+}
+
+.quote_section {
+    border: solid 1px black;
+    box-sizing:border-box;
+    padding: 5em 10em;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote_section .quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    margin: 0;
+}
+
+.quote_section .author {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: end;
+}

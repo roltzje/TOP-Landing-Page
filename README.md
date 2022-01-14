@@ -1,2 +1,2 @@
 # TOP Landing Page
- Landing Page for The Odin Project Foundations
+ Landing Page for The Odin Project Foundations Course
