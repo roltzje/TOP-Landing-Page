@@ -18,20 +18,20 @@ ul {
     color: #f9faf8;
 }
 
-.header, .lead, .info_section, .quote_section {
+.header, .lead, .info_section, .quote_section, .call-action-container {
     width: 1000px;
     margin: auto;
 }
 
 .header {
     display: flex;
-    border: dotted 1px white;
     justify-content: space-between;
     align-content: flex-end;
 }
 
 .header .logo {
     font-weight: 1000;
+    align-self: center;
 }
 
 .header ul {
@@ -40,7 +40,6 @@ ul {
 }
 
 .lead {
-    border: dotted 1px white;
     display: flex;
     margin: 5em auto;
     justify-content: space-between;
@@ -71,12 +70,10 @@ ul {
 }
 
 .info_section {
-    border: dotted 1px black;
     padding-bottom: 5em;
 }
 
 #info_header {
-    border: dotted 1px black;
     text-align: center;
     font-size: 36px;
     font-weight: bolder;
@@ -114,7 +111,6 @@ ul {
 }
 
 .quote_section {
-    border: solid 1px black;
     box-sizing:border-box;
     padding: 5em 10em;
     display: flex;
@@ -132,4 +128,30 @@ ul {
     font-weight: bold;
     font-size: 24px;
     text-align: end;
+}
+
+.call-action {
+    height: 150px;
+    margin: 5em 0em;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    background-color:#3882f6;
+    border-radius: 1em;
+    align-items: center;
+    padding: 0 5em;
+    color: white;
+}
+
+.call-action .button {
+    border: solid 2px white;
+}
+
+.strong {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.call-action p {
+    margin: 4px;
 }
